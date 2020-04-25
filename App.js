@@ -4,11 +4,10 @@ import * as Font from "expo-font";
 import { Asset } from "expo-asset";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import { Home } from "./src/Pages/index";
 import { Container, Center } from "./styles";
 import { ActivityIndicator } from "react-native";
 import colors from "./constants/colors";
-import Second from "./src/Pages/Home/Home";
+import { Home, Second } from "./src/Pages/index";
 
 const fonts = {
   "Roboto-Bold": require("./assets/fonts/Roboto-Bold.ttf"),
